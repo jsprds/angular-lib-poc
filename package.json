@@ -2,6 +2,9 @@
   "name": "@jsprds/angular-lib-poc",
   "version": "0.0.1",
   "license": "MIT",
+  "homepage": "https://github.com/jsprds/angular-lib-poc",
+  "author": "Jasper De Smet <jasper.desmet@studiohyperdrive.be>",
+  "private": true,
   "scripts": {
     "ng": "ng",
     "start": "ng serve --app=school",
@@ -25,7 +28,6 @@
     "docs:generate": "./node_modules/.bin/compodoc libs -p tsconfig.json -d dist-docs -n 'API documentation' --includes docs",
     "docs:serve": "npm run docs:generate -- --serve --watch"
   },
-  "private": true,
   "dependencies": {
     "@angular/animations": "5.2.4",
     "@angular/common": "5.2.4",
