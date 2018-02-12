@@ -6,7 +6,7 @@
     "ng": "ng",
     "start": "ng serve --app=school",
     "start:sandbox": "ng serve --app=sandbox",
-    "build:libs": "ng-packagr -p libs/avatar/package.json",
+    "build:lib": "ng-packagr -p libs/jsprds/package.json",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
