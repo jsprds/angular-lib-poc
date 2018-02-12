@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Getting started",
+    "file": "getting-started.md"
+  },
+  {
+    "title": "Angular NX",
+    "file": "angular-nx.md"
+  },
+  {
+    "title": "Redux",
+    "file": "redux.md",
+    "children": [
+      {
+        "title": "Getting started",
+        "file": "redux/getting-started.md"
+      }
+    ]
+  }
+]

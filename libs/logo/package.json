@@ -1,0 +1,27 @@
+{
+  "$schema": "../../ng-packagr/package.schema.json",
+  "name": "@jsprds/ngx-logo",
+  "version": "1.0.0",
+  "ngPackage": {
+    "lib": {
+      "entryFile": "index.ts"
+    },
+    "dest": "../../@jsprds/ngx-logo"
+  },
+  "peerDependencies": {
+    "@angular/common": "^5.2.0",
+    "@angular/compiler": "^5.2.0",
+    "@angular/core": "^5.2.0",
+    "@angular/platform-browser": "^5.2.0",
+    "@angular/platform-browser-dynamic": "^5.2.0",
+    "@angular/platform-server": "^5.2.0"
+  },
+  "author": "Jasper De Smet <jasper.desmet@studiohyperdrive.be>",
+  "contributors": [],
+  "homepage": "",
+  "license": "UNLICENSED",
+  "engines": {
+        "node": ">= 8.9.4",
+        "npm": ">= 5.6.0"
+    }
+}
